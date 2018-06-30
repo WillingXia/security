@@ -11,6 +11,7 @@
     <name>demo</name>
     <description>Demo project for Spring Boot</description>
 
+    <!--使用1.5.12release-->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -29,6 +30,7 @@
             <!--<groupId>org.springframework.boot</groupId>-->
             <!--<artifactId>spring-boot-starter-web</artifactId>-->
         <!--</dependency>-->
+        <!--集成thymeleaf，注：thymeleaf已经集成了web，故需要注释掉web-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -40,6 +42,7 @@
             <scope>test</scope>
         </dependency>
 
+        <!--集成security-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
